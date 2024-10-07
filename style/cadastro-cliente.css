@@ -1,0 +1,30 @@
+:root {
+   --background: #9ED25E;
+   --background-input: #FFF;
+   --link: #5A5A5A;
+   --background-button: #2C2C2C;
+   --text: #757575;
+}
+
+body {
+   background: var(--background);
+   height: 842px;
+   width: 430px;
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+   height: 125px;
+   background-color: aqua;
+   width: 430px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header .logo img {
+   width: 185px;
+   height: 185px;
+   
+}
