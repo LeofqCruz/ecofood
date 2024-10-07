@@ -1,0 +1,108 @@
+:root{
+   --background: #9ED25E;
+   --background-input: #FFF;
+   --link: #5A5A5A;
+   --background-button: #2C2C2C;
+   --text: #757575;
+}
+
+body {
+   background: var(--background);
+   height: 842px;
+   width: 430px;
+   display: flex;
+   flex-direction: column;
+}
+
+.logo {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: right;
+   width: 288px;
+   height: 288px;
+   margin-left: 71px;
+   margin-bottom: 30px;
+}
+
+.logo img{
+   height: 288px;
+   width: 288px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+.form form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form form input {
+   background-color: var(--background-input);
+   width: 327px;
+   height: 40px;
+   padding: 12px 16px;
+   border-radius: 20px;
+   margin-bottom: 10px;
+   border: none;
+}
+
+.form form a {
+   color: var(--link);
+   width: 327px;
+   /*background-color: aqua;*/
+   display: flex;
+   right: 10px;
+   flex-direction: row-reverse;
+   line-height: 16px;
+}
+
+.form form button {
+   width: 270px;
+   height: 44px;
+   background-color: var(--background-button);
+   color: var(--background-input);
+   border: none;
+   border-radius: 14px;
+   margin: 30px 0px 20px 0px;
+   
+}
+
+.login_with_google {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.login_with_google a {
+   color: var(--link);
+   margin-bottom: 6px;
+}
+
+.login_with_google button {
+   min-width: 240px;
+   min-height: 40px;
+   color: var(--text);
+   background-color: var(--background-input);
+   border: none;
+   border-radius: 14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 6px;
+}
+
+.login_with_google button a {
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.logo_google {
+   width: 34px;
+   height: 32px;
+}
