@@ -11,7 +11,7 @@
 
 <body>
    <header class="header">
-      <a href="./sign-up.html"><img src="./img/icone-voltar.svg" alt="icone_voltar" class="icone-voltar"></a>
+      <a href=""><img src="./img/icone-voltar.svg" alt="icone_voltar" class="icone-voltar"></a>
       <div class="logo">
          <img src="./img/logo_ecofood.png" alt="logo_ecofood" class="img">
       </div>
@@ -24,13 +24,15 @@
 
             <input type="text" placeholder="Nome do produto">
             <input type="number" placeholder="Preço do produto">
-            <select name="unidade-medida" id="">
-               <option value="">Escolha uma unidade de medida</option>
-               <option value="kg">quilos</option>
-               <option value="lt">litros</option>
-               <option value="dz">dúzia</option>
-               <option value="un">unidade</option>
-            </select>
+            <div class="select">
+               <select name="unidade-medida" id="">
+                  <option value="">Escolha uma unidade de medida</option>
+                  <option value="kg">quilos</option>
+                  <option value="lt">litros</option>
+                  <option value="dz">dúzia</option>
+                  <option value="un">unidade</option>
+               </select>
+            </div>
             <input type="password" placeholder="Confirme a senha">
 
             <button>Novo produto</button>

@@ -1,0 +1,41 @@
+:root {
+   --background: #9ED25E;
+   --background-input: #FFF;
+   --link: #5A5A5A;
+   --background-button: #2C2C2C;
+   --text: #757575;
+   --secondary-background: #DDF5BE;
+}
+
+body{
+   background: var(--secondary-background);
+   height: 100%;
+}
+
+.header{
+   /* background-color: aqua; */
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.header .saudacao{
+   height: 50px;
+   /* background-color: blue; */
+}
+
+.header .saudacao h3{
+   margin: 0 0 0 15px;
+   height: 25px;
+   font-size: 15px;
+}
+
+.img-perfil{
+   width: 50px;
+   /* background-color: red; */
+}
+
+.img-perfil img{
+   width: 50px;
+}
