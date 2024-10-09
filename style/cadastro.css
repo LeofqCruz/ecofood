@@ -26,7 +26,6 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   
 }
 
 .header .icone-voltar {
@@ -73,8 +72,6 @@ body {
 .form form input:last-of-type {
    margin-bottom: 50px;
 }
-
-
 
 .form form button {
    min-width: 240px;

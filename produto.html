@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./style/cadastro.css">
+   <link rel="stylesheet" href="./style/produto.css">
    <link rel="shortcut icon" href="./img/logo_ecofood.png" type="image/x-icon">
-   <title>Cadastro</title>
+   <title>Produtos</title>
 </head>
+
 <body>
    <header class="header">
       <a href="./sign-up.html"><img src="./img/icone-voltar.svg" alt="icone_voltar" class="icone-voltar"></a>
@@ -18,17 +20,25 @@
    <main class="main">
       <div class="form">
          <form>
-            <h2>Cadastro de Cliente</h2>
+            <h2>Produto</h2>
 
-            <input type="email" type="tel" placeholder="Email ou telefone">
-            <input type="text" placeholder="Nome do usuário">
-            <input type="password" placeholder="Senha">
+            <input type="text" placeholder="Nome do produto">
+            <input type="number" placeholder="Preço do produto">
+            <select name="unidade-medida" id="">
+               <option value="">Escolha uma unidade de medida</option>
+               <option value="kg">quilos</option>
+               <option value="lt">litros</option>
+               <option value="dz">dúzia</option>
+               <option value="un">unidade</option>
+            </select>
             <input type="password" placeholder="Confirme a senha">
 
-            <button>Criar conta</button>
+            <button>Novo produto</button>
+            <button>Salvar</button>
             <button>Cancelar</button>
          </form>
       </div>
    </main>
 </body>
+
 </html>
