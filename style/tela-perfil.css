@@ -1,0 +1,146 @@
+:root {
+   --background: #9ED25E;
+   --background-input: #FFF;
+   --link: #5A5A5A;
+   --background-button: #2C2C2C;
+   --text: #757575;
+   --secondary-background: #DDF5BE;
+}
+
+body {
+   margin: 0;
+   background: var(--secondary-background);
+   height: 842px;
+   width: 430px;
+   display: flex;
+   flex-direction: column;
+}
+
+.perfil {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.main .main-content .content {
+   color: var(--background-button);
+   display: flex;
+   border-bottom: 2px solid var(--background-input);
+   padding: 0px 10px;
+   /* background-color: aqua; */
+   height: 80px;
+}
+
+.main .main-content .content a {
+   text-decoration: none;
+   color: var(--background-button);
+   display: flex;
+   align-items: center;
+   gap: 0px 10px;
+}
+
+.main .main-content .content a img {
+   width: 35px;
+   height: 35px;
+}
+
+.dark-mode{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.dark-mode .icone {
+   align-items: center;
+   display: flex;
+   gap: 10px;
+}
+
+.dark-mode img{
+   width: 35px;
+   height: 35px;
+
+}
+
+.background-dark-mode{
+   background: var(--background);
+   width: 60px;
+   height: 40px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: left;
+   padding: 0px 10px;
+   align-items: center;
+   position: relative;
+   cursor: pointer;
+}
+
+.background-dark-mode::before{
+   content: '';
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   background-color: var(--background-button);
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+/* Ainda escolhendo como será o botão do dark-mode */
+
+/* .button-dark-mode{
+   background: var(--background-button);
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   
+} */
+
+
+
+.footer {
+   margin: 0;
+   position: fixed;
+   bottom: 0;
+   /* top: 700px; */
+   display: flex;
+   height: 80px;
+   background: red;
+   width: 100%;
+   background: var(--background-input);
+   justify-content: space-around;
+}
+
+.footer a{
+   text-decoration: none;
+   color: var(--text);
+}
+
+.footer img{
+   width: 18px;
+   margin-bottom: -15px;
+}
+
+.footer .footer-content{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer .footer-content .footer-produtos{
+   width: 92px;
+   text-align: center;
+}
+.footer .footer-content .footer-busca{
+   width: 92px;
+   text-align: center;
+}
+
+.footer .footer-content .footer-carrinho{
+   width: 92px;
+   text-align: center;
+}
+
+.footer .footer-content .footer-perfil{
+   width: 92px;
+   text-align: center;
+}

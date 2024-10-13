@@ -96,6 +96,7 @@ body {
    background: red;
    width: 100%;
    background: var(--background-input);
+   justify-content: space-around;
 }
 
 .footer a{
