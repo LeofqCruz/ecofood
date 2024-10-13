@@ -7,12 +7,13 @@
    --secondary-background: #DDF5BE;
 }
 
-body{
+body {
    background: var(--secondary-background);
    height: 100%;
+   margin: 0;
 }
 
-.header{
+.header {
    /* background-color: aqua; */
    height: 50px;
    display: flex;
@@ -20,22 +21,115 @@ body{
    justify-content: space-between;
 }
 
-.header .saudacao{
+.header .saudacao {
    height: 50px;
    /* background-color: blue; */
 }
 
-.header .saudacao h3{
+.header .saudacao h3 {
    margin: 0 0 0 15px;
    height: 25px;
    font-size: 15px;
 }
 
-.img-perfil{
+.img-perfil {
    width: 50px;
    /* background-color: red; */
 }
 
-.img-perfil img{
+.img-perfil img {
    width: 50px;
 }
+
+.main {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   padding-bottom: 80px;
+}
+
+.main .buscador {
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.main .buscador input {
+   height: 30px;
+   width: 98%;
+   border-radius: 20px;
+   border: none;
+   padding: 10px;
+   background: var(--background-input);
+}
+
+.product-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px 15px;
+   grid-auto-rows: 160px;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   /* margin-top: 50px; */
+}
+
+.product-container .products  a img{
+   width: 121px;
+   height: 121px;
+}
+
+.product-container .products {
+   border: 1px solid var(--text);
+   border-radius: 20px;
+   width: 121px;
+   height: 160px;
+}
+
+.footer {
+   margin: 0;
+   position: fixed;
+   bottom: 0;
+   /* top: 700px; */
+   display: flex;
+   height: 80px;
+   background: red;
+   width: 100%;
+   background: var(--background-input);
+}
+
+.footer a{
+   text-decoration: none;
+   color: var(--text);
+}
+
+.footer img{
+   width: 18px;
+   margin-bottom: -15px;
+}
+
+.footer .footer-content{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer .footer-content .footer-produtos{
+   width: 92px;
+   text-align: center;
+}
+.footer .footer-content .footer-busca{
+   width: 92px;
+   text-align: center;
+}
+
+.footer .footer-content .footer-carrinho{
+   width: 92px;
+   text-align: center;
+}
+
+.footer .footer-content .footer-perfil{
+   width: 92px;
+   text-align: center;
+}
+
+
