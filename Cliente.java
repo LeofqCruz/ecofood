@@ -1,4 +1,3 @@
-package Back;
 
 public class Cliente {
 

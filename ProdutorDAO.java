@@ -1,4 +1,3 @@
-package Back;
 
 import java.sql.ResultSet;
 

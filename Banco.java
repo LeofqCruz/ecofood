@@ -1,5 +1,3 @@
-package Back;
-
 import java.sql.*;
 
 public class Banco {
